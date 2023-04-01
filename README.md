@@ -19,5 +19,7 @@ Strategy - service/controller
 ----------------------------------------------------
 H2    
 Swagger  
-Validation  
+(http://localhost:8080/swagger-ui.html#/)    
+Validation
 messageria(tratametos) - internacionalizacao
+
