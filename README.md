@@ -13,3 +13,11 @@ Behavior Patters (comportamentais).
 
 O nosso projeto consta os seguintes Design Pattern:
 
+MVC - projeto    
+builder - UsuarioServiceImpl   
+Strategy - service/controller
+----------------------------------------------------
+H2    
+Swagger  
+Validation  
+messageria(tratametos) - internacionalizacao
