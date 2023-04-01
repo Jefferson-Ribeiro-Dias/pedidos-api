@@ -9,3 +9,7 @@ Basicamente, os padrões de projeto podem ser divididos em três grandes grupos,
 Creational Patterns (criacionais);     
 Structural Patterns (estruturais);  
 Behavior Patters (comportamentais).
+
+
+O nosso projeto consta os seguintes Design Pattern:
+
