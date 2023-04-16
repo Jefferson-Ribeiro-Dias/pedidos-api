@@ -10,16 +10,38 @@ Creational Patterns (criacionais);
 Structural Patterns (estruturais);  
 Behavior Patters (comportamentais).
 
+O nosso projeto consta os seguintes Design Patterns:
 
-O nosso projeto consta os seguintes Design Pattern:
 
-MVC - projeto    
-builder - UsuarioServiceImpl   
-Strategy - service/controller
-----------------------------------------------------
-H2    
-Swagger  
-(http://localhost:8080/swagger-ui.html#/)    
-Validation
-messageria(tratametos) - internacionalizacao
+**Builder:** -> Local:   *UsuarioServiceImpl* ->  Descrição: Usado na camada de servicos para setar informacoes na classe de usuarios.
 
+
+
+**Strategy** -> Local:  *service/controller*  -> Descrição: utilizado para evitar os diversos ifs que poderiamos utilizar.
+
+**A nossa aplicação utiliza arquiteturas, ferramentas e outras coisas mais modernas que mostraremos abaixo:**
+
+**MVC**
+
+Utilizamos em todo o projeto a arquitetura de software que divide a aplicação em três camadas: manipulação dos dados (model);
+interação do usuário (view); camada de controle (controller)
+
+
+
+**SWAGGER**
+
+O Swagger é, basicamente, um conjunto de ferramentas que nos ajuda a fazer o design, ou seja, fazer a modelagem,
+a documentar e até gerar código para desenvolvimento de APIs.
+Segue o link para acessar as informações da aplicação
+
+**Internacionalização**
+
+Tratamento de erros personalizados para APIs rest com Spring Boot
+
+**H2**
+
+H2 é um banco de dados relacional escrito em Java. Ele pode ser integrado em aplicativos Java ou executado no modo
+cliente-servidor. Todos os modos contam com suporte para bancos de dados persistentes e na memória.
+
+
+Obs.:  Existe um arquivo(**API-pedidos.postman_collection**) de collections para usar no postman para testar todas as rotas da API
